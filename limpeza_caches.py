@@ -1,3 +1,5 @@
+#Adicionar abaixo no crontab -e
+#*/30 * * * * /usr/bin/python3 /usr/src/cache.py
 import os
 from datetime import date, time
 from time import sleep
