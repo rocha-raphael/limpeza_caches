@@ -16,7 +16,7 @@ ramusada=ramtotal-ramlivre
 porcentagem=int(ramusada*100/ramtotal)
 if porcentagem <= max_mem:
         #Printa na tela que está OK caso queira fazer log descomentar os debaixo
-        os.system(f'echo \'caches em {porcentagem}% {date}\')
+        os.system(f'echo \'caches em {porcentagem}% {date}\'')
         #print(f'Memoria está em {porcentagem}%')
         #os.system(f'echo \'caches em {porcentagem}% {date}\'  >> /tmp/logcaches.log')
 if porcentagem >= max_mem:
